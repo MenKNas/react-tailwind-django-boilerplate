@@ -1,5 +1,6 @@
 import * as React from "react";
 import Header from "./Header/Header";
+import TodosList from "./Todos/TodosList";
 
 export default function App() {
   return (
@@ -12,6 +13,7 @@ export default function App() {
           The author of this amazing application is: <i> Menelaos Nasies </i>
         </p>
         <p className="text-lg font-bold"> We LOVE TailwindCSS ! </p>
+        <TodosList />
       </div>
     </div>
   );
