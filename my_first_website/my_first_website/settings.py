@@ -41,6 +41,8 @@ INSTALLED_APPS = [
 
 # TAILWIND_APP_NAME = 'theme'
 
+SECRET_KEY = config("SECRET_KEY")
+
 NPM_BIN_PATH = r"C:\Program Files\nodejs\npm.cmd"
 
 MIDDLEWARE = [
