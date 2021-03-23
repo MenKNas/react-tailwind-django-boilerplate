@@ -1,6 +1,6 @@
 const path = require("path");
 const webpack = require("webpack");
-const HtmlWebpackPlugin = require("html-webpack-plugin");
+// const HtmlWebpackPlugin = require("html-webpack-plugin");
 
 module.exports = {
   entry: "./src/index.js",
@@ -39,8 +39,8 @@ module.exports = {
         process.env.NODE_ENV || "development"
       ),
     }),
-    new HtmlWebpackPlugin({
-      title: "Hot Module Replacement",
-    }),
+    // new HtmlWebpackPlugin({
+    //   title: "Hot Module Replacement",
+    // }),
   ],
 };
